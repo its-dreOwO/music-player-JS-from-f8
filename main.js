@@ -19,6 +19,24 @@ const playList = $('.playlist')
 const app = {
     songs: [
         {
+            name: '3 1 0 7 full album',
+            singer: 'W/n, Nâu, Dươngg ',
+            path: './mp3/[YT2mp3.info] - W_n - ‘3107’ full album_ ft. ( titie, Nâu ,Dươngg ) (320kbps).mp3',
+            img: './img/3107.jpeg',
+        },
+        {
+            name: 'cà phê',
+            singer: 'MIN',
+            path: './mp3/[YT2mp3.info] - MIN - CÀ PHÊ _ OFFICIAL MUSIC VIDEO (320kbps).mp3',
+            img: './img/loi-bai-hat-ca-phe-min-700.jpeg'
+        },
+        {
+            name: 'nàng thơ',
+            singer: 'Hoàng Dũng',
+            path: './mp3/[YT2mp3.info] - Nàng Thơ _ Hoàng Dũng _ Official MV (320kbps).mp3',
+            img: './img/nangtho.jpeg',
+        },
+        {
             name: 'everything goes on',
             singer: 'Porter Robinson',
             path: './mp3/[YT2mp3.info] - Everything Goes On - Porter Robinson (Official Music Video) _ Star Guardian 2022 (320kbps).mp3',
@@ -47,7 +65,8 @@ const app = {
             singer: 'neko hacker , ...',
             path: './mp3/[YT2mp3.info] - Neko Hacker - Home Sweet Home feat. KMNZ LIZ (320kbps).mp3',
             img: './img/maxresdefault.jpeg'
-        }
+        },
+        
     ],
     currentIndex: 0,
     isPlaying: false,
