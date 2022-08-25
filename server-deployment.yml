@@ -1,0 +1,11 @@
+name: "Server Deployment" 
+on: 
+	push:   
+  		branches: [main] 
+jobs: 
+	deployment:   
+  	runs-on: ubuntu-latest    
+    steps:    
+    - uses: actions/checkout@v2    
+    - name: Say Hello!     
+    run: echo "Hello there!"
